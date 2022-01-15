@@ -1,0 +1,122 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+/* start nav */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #20966e;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+
+/* end nav */
+
+.text1 {
+    font-size: 40px;
+}
+
+.btn {
+    margin-top: 2vw;
+    background-color: #DAA521;
+    border: none;
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    border-radius: 0.5vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* CSS for headding*/
+
+.row {
+    margin: auto;
+    padding-left: 60px;
+}
+
+.column {
+    padding: 8px;
+    float: left;
+    width: 30%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Content */
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+/* headding */
+
+.headding .row {
+    margin: auto;
+    padding-left: 0px;
+}
+
+.column2 {
+    float: left;
+    width: 60%;
+    padding: 20px 5px 20px 5px;
+}
+
+.column3 {
+    float: left;
+    width: 35%;
+    padding: 20px 5px 20px 5px;
+}
+
+
+/*  CSS for Footer */
+
+.footer {
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(17, 87, 87);
+}
+
+.footer-area {
+    text-align: center;
+}
